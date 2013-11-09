@@ -6,8 +6,8 @@ python implementation for http://en.wikipedia.org/wiki/Memoization
 
 
 usage
-	from memoization import memo
 
+	from memoization import memo
 	@memo
 	def func(arg1, arg2):
     	# do_some_processing
