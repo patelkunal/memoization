@@ -1,4 +1,4 @@
-from memoutil import memo
+from memoization import memo
 
 
 @memo
