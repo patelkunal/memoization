@@ -34,9 +34,9 @@ class memo(object):
 			return value
 
 	def __repr__(self):
-		'''Return the function's docstring.'''
+		"""Return the function's docstring."""
 		return self.func.__doc__
 
 	def __get__(self, obj, objtype):
-		'''Support instance methods.'''
+		"""Support instance methods."""
 		return functools.partial(self.__call__, obj)
